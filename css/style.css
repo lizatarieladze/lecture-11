@@ -1,0 +1,258 @@
+.header{
+    width: 371px;
+    border: 3 px solid blue;
+}
+
+header h2{
+    color: #5863E3;
+    font-size: 17px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+header h3 {
+    color: #000;
+    font-size: 49px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* section 1 */
+
+ .padding{
+    padding: 57px 170px;
+    margin: 0 auto;
+ }
+
+.s-1{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.form1, .form2{
+    margin-top: 57px;
+}
+
+#description{
+    width: 756px;
+    height: 298px;
+    flex-shrink: 0;
+    resize: none;
+    margin-right: 20px;
+    border: 2px solid rgba(212, 211, 211, 0.30);
+    background: #F8F8F8;
+    padding: 23px 21px;
+
+}
+
+input[type=text], input[type=email] {
+    width: 370px;
+    height: 59px;
+    flex-shrink: 0;
+    border: 2px solid rgba(212, 211, 211, 0.30);
+    background: #F8F8F8;
+    margin-bottom: 22px;
+    padding: 21px 19px;
+
+}
+
+input[type=submit] {
+    background: #5968F4;
+    width: 100%;
+    max-width: 370px;
+    height: 59px;
+    flex-shrink: 0;
+    color: #FBFBFF;
+    font-size: 14px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+
+/* s-2 */
+
+.s-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 997px;
+    margin: 0 auto;
+}
+
+
+
+.circle{
+    position: relative;
+    width: 68px;
+    height: 68px;
+    flex-shrink: 0;
+    border-radius: 68px;
+    background: #5968F4;
+    margin-left: 45px;
+}
+
+.frame{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.s-2 h3{
+    color: #4E4D54;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+.s-2 a {
+    color: #99999A;
+    font-size: 15px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+}
+
+/* s-2 */
+
+.info{
+    margin-top: 101px;
+    margin-left: 170px;
+    width: 100%;
+    max-width: 548px;
+}
+
+.info h2{
+    color: #5863E3;
+    font-size: 17px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.info h3 {
+    color: #000;
+    font-size: 49px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.photos{
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 53px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* footer */
+
+
+
+footer{
+    background-color: #000;
+    margin-top: 102px;
+}
+
+.contact {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+   
+    padding-left: 55px;
+    padding-top: 63px;
+
+}
+
+footer h4{
+    color: #FFF;
+    font-size: 26px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+footer p{
+    color: #99999A;
+    font-size: 17px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 27px;
+}
+
+footer h5{
+    color: #FFF;
+    font-size: 21px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 35px;
+}
+
+footer h6{
+    color: #5863E3;
+    font-size: 17px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer a{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 9px;
+}
+
+.f1, .f2, .f3, .f4 {
+    width: 100%;
+    max-width: 250px;
+}
+
+.f1, .f2, .f3{
+    margin-right: 80px;
+}
+
+
+.f1img{
+    width: 46px;
+    height: 46px;
+    display: inline;
+}
+
+.f4img{
+    width: 21px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.a{
+    display: inline-block;
+}
+
+
