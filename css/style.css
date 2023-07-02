@@ -148,6 +148,7 @@ input[type=submit] {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 10px;
 }
 
 .info h3 {
@@ -185,7 +186,6 @@ footer{
     max-width: 1300px;
     display: flex;
     flex-wrap: wrap;
-   
     padding-left: 55px;
     padding-top: 63px;
 

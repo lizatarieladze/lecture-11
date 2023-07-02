@@ -2,6 +2,7 @@
     .padding{
         padding: 20px;
     }
+    
     #description{
         width: 90%;
     }
@@ -16,17 +17,21 @@
         margin-top: 30px;
         margin-left: 10px;
     }
+
     .s-22{
         margin-bottom: 30px;
     }
+
     .circle{
         width: 28px;
         height: 28px;
     }
+
     .frame{
         width: 18px;
         height: 18px;
     }
+
     .s-22 a, .s22 h3{
         font-size: 15px;
         text-align: center;
@@ -70,7 +75,7 @@
 
 
 
-@media (max-width:480px){
+@media (max-width:600px){
     header h2, header h3{
         text-align: center;
         font-size: 30px;
@@ -144,10 +149,6 @@
     }
 
     /* footer */
-
-    footer{
-        width: 375px;
-    }
 
     .contact{
         display: flex;
