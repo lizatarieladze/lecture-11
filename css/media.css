@@ -15,7 +15,6 @@
         display: flex;
         flex-direction: row;
         margin-top: 30px;
-        margin-left: 10px;
     }
 
     .s-22{
@@ -70,11 +69,13 @@
     footer .f1, footer .f2, footer .f3{
         margin-bottom: 70px;
     }
+
     .contact{
         margin: 0 auto;
         width: 90%;
-        width: 310px;
         margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
     }
 
 }
@@ -84,6 +85,9 @@
     .s-3 img{
         width: 310px;
         margin-top: 30px;
+    }
+    .contact{
+        
     }
 }
 

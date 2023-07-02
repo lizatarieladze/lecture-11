@@ -238,13 +238,22 @@ footer a{
     margin-bottom: 9px;
 }
 
+.f4 a{
+    color: white;
+}
+
 .f1, .f2, .f3, .f4 {
     width: 100%;
     max-width: 250px;
 }
 
-.f1, .f2, .f3{
-    margin-right: 80px;
+.f1{
+    margin-right: 200px;
+   
+}
+
+ .f2, .f3{
+    margin-right: 10px;
 }
 
 
