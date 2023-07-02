@@ -1,5 +1,6 @@
 .header{
-    width: 371px;
+    width: 100%;
+    max-width: 371px;
    
 }
 
@@ -178,7 +179,6 @@ input[type=submit] {
 
 footer{
     background-color: #000;
-    background-repeat: repeat;
     margin-top: 102px;
    
 }

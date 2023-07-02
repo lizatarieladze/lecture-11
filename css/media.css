@@ -44,7 +44,6 @@
 
     .s-3{
         margin-top: 80px;
-        margin-left: 20px;
     }
 
     .info{
@@ -52,14 +51,20 @@
         margin: 0 auto;
     }
 
-    .photos img {
+    .s-3 img {
         border-radius: 30px;
         margin: 0 auto;
+        width: 310px;
+        margin-top: 30px;
     }
      
 
 
     /* footer */
+
+    footer{
+        background-color: black;
+    }
 
 
     footer .f1, footer .f2, footer .f3{
@@ -67,15 +72,23 @@
     }
     .contact{
         margin: 0 auto;
-        width: 90%px;
-        padding-left: 85px;
+        width: 90%;
+        width: 310px;
+        margin-top: 30px;
     }
 
 }
 
 
+@media (max-width: 768px){
+    .s-3 img{
+        width: 310px;
+        margin-top: 30px;
+    }
+}
 
-@media (max-width:600px){
+
+@media (max-width:480px){
     header h2, header h3{
         text-align: center;
         font-size: 30px;
@@ -97,7 +110,6 @@
     .s-2{
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
         margin-top: 30px;
     }
 
@@ -149,11 +161,6 @@
     }
 
     /* footer */
-
-    footer{
-        width: 400px;
-
-    };
 
     .contact{
         display: flex;
