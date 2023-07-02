@@ -1,6 +1,6 @@
 .header{
     width: 371px;
-    border: 3 px solid blue;
+   
 }
 
 header h2{
@@ -31,12 +31,11 @@ header h3 {
 .s-1{
     display: flex;
     flex-wrap: wrap;
-
-
 }
 
 .form1, .form2{
     margin-top: 57px;
+   
 }
 
 #description{
@@ -79,6 +78,8 @@ input[type=submit] {
 
 /* s-2 */
 
+
+
 .s-2{
     display: flex;
     flex-wrap: wrap;
@@ -86,6 +87,10 @@ input[type=submit] {
     width: 100%;
     max-width: 997px;
     margin: 0 auto;
+}
+
+.s-22{
+    text-align: center;
 }
 
 
@@ -97,7 +102,7 @@ input[type=submit] {
     flex-shrink: 0;
     border-radius: 68px;
     background: #5968F4;
-    margin-left: 45px;
+    margin: 0 auto;
 }
 
 .frame{
@@ -114,6 +119,8 @@ input[type=submit] {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-top: 16px;
+    margin-bottom: 10px;
     
 }
 
@@ -125,7 +132,7 @@ input[type=submit] {
     font-weight: 700;
 }
 
-/* s-2 */
+/* s-3 */
 
 .info{
     margin-top: 101px;
