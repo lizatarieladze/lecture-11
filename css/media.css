@@ -171,4 +171,12 @@
         flex-direction: column;
     }
 
+    footer h5, footer a, footer p, footer h4, footer h1{
+        text-align: center;
+    }
+
+    .f-img {
+        margin-left: 50px;
+    }
+
 }
